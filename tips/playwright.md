@@ -2,7 +2,7 @@
 [![Playwright - GitHub](https://img.shields.io/badge/GitHub-Playwright-1c8620.svg?logo=github)](https://github.com/microsoft/playwright/tree/main)
 [![Playwright - Stack Overflow](https://img.shields.io/badge/stackoverflow-Playwright-e87922.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/playwright)
 
-## Installation Playwright
+# Installation Playwright
 
 :small_orange_diamond: install Playwright `npm init playwright@latest`  
 or:  
@@ -10,7 +10,7 @@ or:
 :small_orange_diamond: install the test module itself `npm install @playwright/test`  
 :small_orange_diamond: install plug-in `Playwright Test for VSCode`
 
-## Updating Playwright
+# Updating Playwright
 
 :small_orange_diamond: check if Playwright should be updated: `npm outdated @playwright/test`  
 :small_orange_diamond: update Playwright: `npm i @playwright/test`  

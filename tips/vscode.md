@@ -1,6 +1,4 @@
-## Tips for VSCode:
-
-<br>
+# Tips for VSCode:
 
 :small_orange_diamond: <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>↓/↑</kbd> -> copy line up/down  
 :small_orange_diamond: <kbd>ALT</kbd> + <kbd>↓/↑</kbd> -> moving the whole line  
