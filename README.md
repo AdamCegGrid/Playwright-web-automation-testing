@@ -50,6 +50,15 @@ README.md
 - Run formatting with Prettier `npx prettier --write .`
 - Linking Prettier with ESLint `npm install --save-dev eslint-config-prettier`
 
+## Running tests:
+
+- Command line: `npx playwright test`
+- Run tests in UI mode: `npx playwright test --ui`
+- Run tests in headed mode: `npx playwright test --headed`
+- Run last failed tests: `npx playwright test --last-failed`
+- Debug tests with the Playwright Inspector: `npx playwright test --debug`
+- Test reports: `npx playwright show-report`
+
 ## VS Code plugins installed
 
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) - enhances the visual experience by adding icons to files and folders, making navigation easier.
