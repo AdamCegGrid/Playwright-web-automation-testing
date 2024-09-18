@@ -8,6 +8,8 @@ This project was created solely for my learning process and to showcase my testi
 
 ## Installation
 
+- Instal [Node.js](https://nodejs.org/en)
+
 - Playwright Installation: 
 ```js
 npm init playwright@latest
