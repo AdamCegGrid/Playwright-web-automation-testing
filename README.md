@@ -59,6 +59,31 @@ README.md
 - Debug tests with the Playwright Inspector: `npx playwright test --debug`
 - Test reports: `npx playwright show-report`
 
+##
+
+```json
+"scripts": {
+    "open:codegen:myshop": "npx playwright codegen http://www.automationpractice.pl/",
+    "open:codegen:store": "npx playwright codegen https://automationteststore.com/",
+    "open:codegen:bank": "npx playwright codegen http://zero.webappsecurity.com/",
+    "open:ui": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:chromium:headed": "npx playwright test --headed --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:firefox:headed": "npx playwright test --headed --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:webkit:headed": "npx playwright test --headed --project=cwebkit",
+    "test:tag:failTest": "npx playwright test --grep @failTest",
+    "test:tag:without": "npx playwright test --grep-invert @failTest",
+    "report": "npx playwright show-report",
+    "prettier": "npx prettier --write .",
+    "lint:check": "eslint . --max-warnings=0",
+    "lint:fix": "eslint . --fix"
+  },
+```
+
 ## VS Code plugins installed
 
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) - enhances the visual experience by adding icons to files and folders, making navigation easier.
