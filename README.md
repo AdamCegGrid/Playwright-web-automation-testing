@@ -84,6 +84,11 @@ README.md
   },
 ```
 
+After that in terminal use `npm ...` e.g.: 
+- `npm test`
+- `npm run test:chromium:headed`
+- `npm run prettier`
+
 ## VS Code plugins installed
 
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) - enhances the visual experience by adding icons to files and folders, making navigation easier.
