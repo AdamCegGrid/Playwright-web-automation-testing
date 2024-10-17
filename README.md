@@ -59,7 +59,7 @@ README.md
 - Debug tests with the Playwright Inspector: `npx playwright test --debug`
 - Test reports: `npx playwright show-report`
 
-##
+## Add scripts to `package.json` file
 
 ```json
 "scripts": {
