@@ -50,7 +50,7 @@ README.md
 - Run formatting with Prettier `npx prettier --write .`
 - Linking Prettier with ESLint `npm install --save-dev eslint-config-prettier`
 
-## Running tests:
+## Running Tests from command line:
 
 - Command line: `npx playwright test`
 - Run tests in UI mode: `npx playwright test --ui`
