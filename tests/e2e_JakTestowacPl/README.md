@@ -12,6 +12,7 @@
 ##
 - [lesson_01](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_01) -> First automatic test
 - [lesson_02](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_02) -> Set of tests and negative cases
+- [lesson_03](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_03) -> Development tests and locators
 
 ## Run tests:
 - `npm run open:codegen:demobank`
