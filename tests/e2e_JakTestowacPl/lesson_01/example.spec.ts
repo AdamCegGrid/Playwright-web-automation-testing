@@ -9,11 +9,15 @@ test('test', async ({ page }) => {
   await page.getByTestId('login-button').click();
   await page.getByTestId('user-name').click();
 
+  // Assert
   await expect(page.getByTestId('user-name')).toHaveText('Jan Demobankowy');
 });
 
 // run tests:
 // npx playwright codegen https://demo-bank.vercel.app/
+
+// npm run open:codegen:demobank
 // npm test tests/e2e_JakTestowacPl
 // npm test tests/e2e_JakTestowacPl/lesson_01
 // npm test -- tests/e2e_JakTestowacPl/lesson_01 --project=chromium
+// npm test -- tests/e2e_JakTestowacPl/lesson_01/example.spec.ts --project=chromium
