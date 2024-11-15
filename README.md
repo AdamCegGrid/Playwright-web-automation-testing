@@ -1,10 +1,37 @@
 [![Playwright.dev](https://img.shields.io/badge/Documentation-Playwright-45ba4b.svg?logo=playwright)](https://playwright.dev/docs/intro)
-<br>
 
 # Playwright Web Automation Testing
 
 This is my personal project to improve my skills in automated testing using Playwright with Typescript.
 This project was created solely for my learning process and to showcase my testing skills.
+
+## Folder Structure
+
+The repository is organized as follows:
+
+```
+/Playwright-web-automation-testing
+├── tests/
+│   ├── api_JsonPlaceholder/
+│   ├── api_Petstore/
+│   ├── api_RestfulBooker/
+│   ├── e2e_AutomationExercise/
+│   ├── e2e_AutomationPracticeShop/
+│   ├── e2e_AutomationTestStore/
+│   ├── e2e_JakTestowacPl/
+│   └── e2e_ZeroBank/
+├── tips/
+├── utils/
+├── .eslintignore
+├── .eslintrc.json
+├── .gitignore
+├── .prettierignore
+├── .prettierrc.json
+├── README.md
+├── eslint.config.mjs
+├── package-lock.json
+├── package.json
+└── playwright.config.ts
 
 ## Installation
 
@@ -100,15 +127,20 @@ After that in terminal use `npm ...` e.g.:
 - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) - used for automating workflows, which can include testing, building, and deploying JavaScript applications.
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - allows for a real-time preview of web pages, making it easier to see the effects of code changes instantly.
 
-## Tutorials
+## Tutorials:
 
 - [Playwright: Web Automation Testing From Zero to Hero](https://www.udemy.com/course/playwright-from-zero-to-hero)
 - [Automated Software Testing with Playwright](https://www.udemy.com/course/automated-software-testing-with-playwright)
 - [Playwright - Zwinna Panda - pl](https://www.youtube.com/watch?v=1-u5JWFWPgw&list=PLvFBbkSgL1u7Bco8ewGnWeZpjRH-bHC_7)
 - [jaktestowac.pl](https://jaktestowac.pl/course/playwright-wprowadzenie/)
 - [playwright.info - Automatyzacja i testy z Playwright - pl](https://playwright.info/)
+- [Playwright Javascript](https://www.youtube.com/watch?v=6fapvF1uYo0&list=PLYDwWPRvXB89caN5PHWDLrXJuyugu5Mg_)
+- [Playwright API Testing - Kaniel Outis](https://www.youtube.com/watch?v=S12sspgH8es&list=PL-hNDoK1-od_HpjnFwFZnjKpIs_D-lEpn)
+- [Playwright API Testing - LetCode with Koushik](https://www.youtube.com/watch?v=deEK0lHrC-w&t=1441s)
+- [Playwright - Cucumber - TS](https://www.youtube.com/watch?v=bfWXNLqKlvA&list=PL699Xf-_ilW6KgK-S1l9ynOnBGiZl2Bsk)
 
 ## TypeScript:
 
 - [TypeScript - Podstawy](https://frontlive.pl/blog/typescript-podstawy)
 - [TypeScript - Przeprogramowani.ts](https://www.youtube.com/watch?v=nUjl2nK0FAY&list=PLfE0DpqEANZ0CQ9pCGlxGKPvYb1Sj6ybV)
+- [TypeScript for Test Automation](https://www.youtube.com/watch?v=k0hSJdTfXNM&list=PL699Xf-_ilW5VXRsJwBJLmDGrsrYxBjQT)
