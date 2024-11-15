@@ -12,4 +12,8 @@ test('test', async ({ page }) => {
   await expect(page.getByTestId('user-name')).toHaveText('Jan Demobankowy');
 });
 
+// run tests:
 // npx playwright codegen https://demo-bank.vercel.app/
+// npm test tests/e2e_JakTestowacPl
+// npm test tests/e2e_JakTestowacPl/lesson_01
+// npm test -- tests/e2e_JakTestowacPl/lesson_01 --project=chromium
