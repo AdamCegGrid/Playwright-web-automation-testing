@@ -8,7 +8,10 @@
     "test": "tests"
   },
   "scripts": {
-    "open:codegen": "npx playwright codegen http://www.automationpractice.pl/",
+    "open:codegen:myshop": "npx playwright codegen http://www.automationpractice.pl/",
+    "open:codegen:store": "npx playwright codegen https://automationteststore.com/",
+    "open:codegen:zerobank": "npx playwright codegen http://zero.webappsecurity.com/",
+    "open:codegen:demobank": "npx playwright codegen http://zero.webappsecurity.com/",
     "open:ui": "npx playwright test --ui",
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
