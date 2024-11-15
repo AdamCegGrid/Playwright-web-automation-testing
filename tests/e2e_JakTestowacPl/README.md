@@ -9,6 +9,10 @@
 - Repository jaktestowac [GitHub](https://github.com/jaktestowac/playwright_automatyzacja_wprowadzenie)  
 - Tested site [demo-bank](https://demo-bank.vercel.app/)  
 
+##
+- [lesson_01](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_01) -> First automatic test
+- [lesson_02](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_02) -> Set of tests and negative cases
+
 ## Run tests:
 - `npm run open:codegen:demobank`
 - `npm test tests/e2e_JakTestowacPl`
