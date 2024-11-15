@@ -32,6 +32,7 @@ The repository is organized as follows:
 ├── package-lock.json
 ├── package.json
 └── playwright.config.ts
+```
 
 ## Installation
 
