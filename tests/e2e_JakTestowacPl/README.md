@@ -9,7 +9,12 @@
 - Repository jaktestowac [GitHub](https://github.com/jaktestowac/playwright_automatyzacja_wprowadzenie)  
 - Tested site [demo-bank](https://demo-bank.vercel.app/)  
 
-## Methods
+## Run tests:
+- `npx playwright codegen https://demo-bank.vercel.app/`
+- `npm test tests/e2e_JakTestowacPl`
+- `npm test tests/e2e_JakTestowacPl/lesson_01`
+- `npm test -- tests/e2e_JakTestowacPl/lesson_01 --project=chromium`
+
 ###  Import  
 ```TypeScript
 import { test, expect, chromium } from '@playwright/test';
