@@ -10,10 +10,11 @@
 - Tested site [demo-bank](https://demo-bank.vercel.app/)  
 
 ## Run tests:
-- `npx playwright codegen https://demo-bank.vercel.app/`
+- `npm run open:codegen:demobank`
 - `npm test tests/e2e_JakTestowacPl`
 - `npm test tests/e2e_JakTestowacPl/lesson_01`
 - `npm test -- tests/e2e_JakTestowacPl/lesson_01 --project=chromium`
+- `npm test -- tests/e2e_JakTestowacPl/lesson_01/example.spec.ts --project=chromium`
 
 ###  Import  
 ```TypeScript
