@@ -7,8 +7,9 @@
 - [Swagger ReqRes API](https://reqres.in/api-docs/) 
 
 ## Run tests:
-- `npm test tests/ReqRes`
-- `npm test -- tests/api_ReqRes/GET_resource.spec.ts`
+- `npm test -- tests/api_ReqRes`
+- `npm test -- tests/api_ReqRes --project=chromium`
+- `npm test -- tests/api_ReqRes/GET_resource.spec.ts --project=chromium`
 
 ## Tutorials:
 
