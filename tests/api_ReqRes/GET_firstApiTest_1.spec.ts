@@ -15,4 +15,4 @@ test.describe.parallel('API Testing', () => {
 });
 
 // Test run:
-// npm test -- tests/api_ReqRes/GET_firstApiTest.spec.ts --project=chromium
+// npm test -- tests/api_ReqRes/GET_firstApiTest-1.spec.ts --project=chromium
