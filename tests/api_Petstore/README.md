@@ -11,9 +11,9 @@
 - [user](#)
 
 ## Run tests:
-- `npm test tests/api_Petstore`
-- `npm test tests/api_Petstore/pet`
-- `npm test -- tests/api_Petstore/pet/GET_pet.spec.ts`
+- `npm test -- tests/api_Petstore`
+- `npm test -- tests/api_Petstore/pet --project=chromium`
+- `npm test -- tests/api_Petstore/pet/GET_pet.spec.ts --project=chromium`
 
 ## Tutorials:
 
