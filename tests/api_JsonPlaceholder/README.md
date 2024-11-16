@@ -14,9 +14,9 @@
 - [users](#)
 
 ## Run tests:
-- `npm test tests/api_JsonPlaceholder`
-- `npm test tests/api_JsonPlaceholder/posts`
-- `npm test -- tests/api_JsonPlaceholder/posts/GET_post.spec.ts`
+- `npm test -- tests/api_JsonPlaceholder`
+- `npm test -- tests/api_JsonPlaceholder/posts --project=chromium`
+- `npm test -- tests/api_JsonPlaceholder/posts/GET_post.spec.ts --project=chromium`
 
 ## Tutorials:
 
