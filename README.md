@@ -14,6 +14,7 @@ The repository is organized as follows:
 ├── tests/
 │   ├── api_JsonPlaceholder/
 │   ├── api_Petstore/
+│   ├── api_ReqRes/
 │   ├── api_RestfulBooker/
 │   ├── e2e_AutomationExercise/
 │   ├── e2e_AutomationPracticeShop/
