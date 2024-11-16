@@ -3,13 +3,6 @@ import { test, expect } from '@playwright/test';
 test.describe.parallel('API Testing 04', () => {
   const baseUrl = 'https://reqres.in/api';
 
-  test('GET Request - Assert Response Status', async ({ request }) => {
-    const response = await request.get(`${baseUrl}/users/3`);
-    // Assert
-    expect(response.status()).toBe(200);
-    console.log('Status:', response.status());
-  });
-
   test('POST Request - Create New User', async ({ request }) => {
     const response = await request.post(`${baseUrl}/users`, {
       data: {

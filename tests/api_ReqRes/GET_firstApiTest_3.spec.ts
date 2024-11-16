@@ -5,7 +5,9 @@ test.describe.parallel('API Testing 03', () => {
 
   test('Simple API Test - Assert Response Status', async ({ request }) => {
     const response = await request.get(`${baseUrl}/users/2`);
+    // Assert
     expect(response.status()).toBe(200);
+    console.log('Status:', response.status());
 
     const responseBody = JSON.parse(await response.text());
     console.log(responseBody);
@@ -13,10 +15,12 @@ test.describe.parallel('API Testing 03', () => {
 
   test('Simple API Test - Assert Invalid Endpoint', async ({ request }) => {
     const response = await request.get(`${baseUrl}/users/non-existing`);
+    // Assert
     expect(response.status()).toBe(404);
+    console.log('Status:', response.status());
   });
 
-  test.only('GET Request - Get User Detail', async ({ request }) => {
+  test('GET Request - Get User Detail', async ({ request }) => {
     const response = await request.get(`${baseUrl}/users/1`);
     const responseBody = JSON.parse(await response.text());
 

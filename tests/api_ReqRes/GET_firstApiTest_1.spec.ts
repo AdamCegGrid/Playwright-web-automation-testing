@@ -5,14 +5,16 @@ test.describe.parallel('API Testing 01', () => {
 
   test('Simple API Test - Assert Response Status', async ({ request }) => {
     const response = await request.get(`${baseUrl}/users/2`);
+    // Assert
     expect(response.status()).toBe(200);
+    console.log('Status:', response.status());
   });
 
   test('Simple API Test - Assert Invalid Endpoint', async ({ request }) => {
-    const response = await request.get(
-      `${baseUrl}/users/non-existing-endpoint`,
-    );
+    const response = await request.get(`${baseUrl}/users/non-existing`);
+    // Assert
     expect(response.status()).toBe(404);
+    console.log('Status:', response.status());
   });
 });
 
