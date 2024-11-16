@@ -16,8 +16,8 @@
 
 ## Run tests:
 - `npm run open:codegen:demobank`
-- `npm test tests/e2e_JakTestowacPl`
-- `npm test tests/e2e_JakTestowacPl/lesson_01`
+- `npm test -- tests/e2e_JakTestowacPl`
+- `npm test -- tests/e2e_JakTestowacPl/lesson_01`
 - `npm test -- tests/e2e_JakTestowacPl/lesson_01 --project=chromium`
 - `npm test -- tests/e2e_JakTestowacPl/lesson_01/example.spec.ts --project=chromium`
 
