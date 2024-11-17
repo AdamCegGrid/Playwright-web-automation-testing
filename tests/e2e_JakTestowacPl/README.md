@@ -9,7 +9,7 @@
 - Repository jaktestowac [GitHub](https://github.com/jaktestowac/playwright_automatyzacja_wprowadzenie)  
 - Tested site [demo-bank](https://demo-bank.vercel.app/)  
 
-##
+## Lessons:
 - [lesson_01](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_01) -> First automatic test
 - [lesson_02](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_02) -> Set of tests and negative cases
 - [lesson_03](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_03) -> Development tests and locators
@@ -24,6 +24,7 @@
 - `npm test -- tests/e2e_JakTestowacPl/lesson_01`
 - `npm test -- tests/e2e_JakTestowacPl/lesson_01 --project=chromium`
 - `npm test -- tests/e2e_JakTestowacPl/lesson_01/example.spec.ts --project=chromium`
+- `npm test -- tests/e2e_JakTestowacPl/lesson_01/example.spec.ts --project=chromium --headed`
 
 ###  Import  
 ```TypeScript
@@ -51,5 +52,5 @@ test.describe('Title two tests', () => {
 
 ## Chrome DevTools
 
-:small_orange_diamond:  open DevTools <kbd>F12</kbd> or right click: `Inspect`  
-:small_orange_diamond:  testing CSS selectors in Console: `$$('selector')`  
+- open DevTools <kbd>F12</kbd> or right click: `Inspect`  
+- testing CSS selectors in Console: `$$('selector')`  
