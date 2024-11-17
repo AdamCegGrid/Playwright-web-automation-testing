@@ -13,7 +13,7 @@ test.describe('Desktop testing', () => {
   });
 
   test('quick payment with correct data', async ({ page }) => {
-    // Arrang
+    // Arrange
     const receiverId = '2';
     const transferAmount = '150';
     const transferTitle = 'Zwrot kasy';
@@ -33,7 +33,7 @@ test.describe('Desktop testing', () => {
   });
 
   test('successful mobile phone top-up', async ({ page }) => {
-    // Arrang
+    // Arrange
     const phoneNumber = '502 xxx xxx';
     const topUpAmount = '90';
     const expectMessage = `Doładowanie wykonane! ${topUpAmount},00PLN na numer ${phoneNumber}`;
