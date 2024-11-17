@@ -18,6 +18,7 @@
 - [lesson_06](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_06) -> Test analysis with Trace Viewer
 - [lesson_07](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_07) -> Implementation of AAA
 - [lesson_08](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_08) -> DRY (Don't Repeat Yourself) and hook beforeEach
+- [lesson_09](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_09) -> Debugging and scripting
 
 ## Run tests:
 - `npm run open:codegen:demobank`
