@@ -59,5 +59,5 @@ test.describe('User login to Demobank', () => {
 // npm test -- tests/e2e_JakTestowacPl
 // npm test -- tests/e2e_JakTestowacPl/lesson_08
 // npm test -- tests/e2e_JakTestowacPl/lesson_08 --project=chromium
-// npm test -- tests/e2e_JakTestowacPl/lesson_08login.spec.ts --project=chromium
+// npm test -- tests/e2e_JakTestowacPl/lesson_08/login.spec.ts --project=chromium
 // npm test -- tests/e2e_JakTestowacPl/lesson_08/login.spec.ts --project=chromium --headed
