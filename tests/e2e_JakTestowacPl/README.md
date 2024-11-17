@@ -15,6 +15,7 @@
 - [lesson_03](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_03) -> Development tests and locators
 - [lesson_04](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_04) -> Mobile top-up
 - [lesson_05](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_05) -> Code refactoring
+- [lesson_06](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_06) -> Test analysis with Trace Viewer
 
 ## Run tests:
 - `npm run open:codegen:demobank`
