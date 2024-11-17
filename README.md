@@ -73,7 +73,8 @@ README.md
 - Add Prettier rule `.prettierrc.json` :
 ```json
 {
-    "singleQuote": true
+    "singleQuote": true,
+    "endOfLine": "auto"
 }
 ```
 - Run formatting with Prettier `npx prettier --write .`
