@@ -53,7 +53,7 @@ test.describe('Desktop testing', () => {
 // run tests:
 // npm run open:codegen:demobank
 // npm test -- tests/e2e_JakTestowacPl
-// npm test -- tests/e2e_JakTestowacPl/lesson_07
-// npm test -- tests/e2e_JakTestowacPl/lesson_07 --project=chromium
-// npm test -- tests/e2e_JakTestowacPl/lesson_07/desktop.spec.ts --project=chromium
-// npm test -- tests/e2e_JakTestowacPl/lesson_07/desktop.spec.ts --project=chromium --headed
+// npm test -- tests/e2e_JakTestowacPl/lesson_08
+// npm test -- tests/e2e_JakTestowacPl/lesson_08 --project=chromium
+// npm test -- tests/e2e_JakTestowacPl/lesson_08/desktop.spec.ts --project=chromium
+// npm test -- tests/e2e_JakTestowacPl/lesson_08/desktop.spec.ts --project=chromium --headed
