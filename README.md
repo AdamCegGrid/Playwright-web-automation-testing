@@ -107,7 +107,6 @@ README.md
     "test:webkit:headed": "npx playwright test --headed --project=cwebkit",
     "test:tag:failTest": "npx playwright test --grep @failTest",
     "test:tag:without": "npx playwright test --grep-invert @failTest",
-    "report": "npx playwright show-report",
     "prettier": "npx prettier --write .",
     "lint:check": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix"
