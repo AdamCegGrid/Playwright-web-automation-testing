@@ -23,6 +23,7 @@
 - [lesson_11](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_11) -> Simplest implementation of the POM pattern
 - [lesson_12](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_12) -> Simplest implementation of the POM pattern
 - [lesson_13](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_13) -> Simplest implementation of the POM pattern
+- [lesson_14](https://github.com/AdamCegGrid/Playwright-web-automation-testing/tree/main/tests/e2e_JakTestowacPl/lesson_14) -> POM and components, common elements
 
 ## Run tests:
 - `npm run open:codegen:demobank`
